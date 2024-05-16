@@ -11,6 +11,7 @@
     {
       "name": "EntryAbility_label",
       "value": "Oniro"
+
     },
     {
       "name": "version",
@@ -224,7 +225,5 @@
       "name": "top_picks",
       "value": "为您的设备精选"
     }
-
-
   ]
 }

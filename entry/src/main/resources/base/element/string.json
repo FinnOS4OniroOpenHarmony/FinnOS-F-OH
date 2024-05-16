@@ -10,7 +10,9 @@
     },
     {
       "name": "EntryAbility_label",
+
       "value": "Oniro"
+
     },
     {
       "name": "version",
@@ -90,7 +92,9 @@
     },
     {
       "name": "inclusion_stats",
+
       "value": "Apps Statistics"
+
     },
     {
       "name": "total",
@@ -226,5 +230,6 @@
     }
 
 
-  ]
+
+
 }

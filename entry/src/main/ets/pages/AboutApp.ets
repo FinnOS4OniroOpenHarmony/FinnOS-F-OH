@@ -99,7 +99,9 @@ struct AboutApp {
     // 第一组
     Column() {
       List() {
+
         ListItem() { SettingRow({icon: $r('app.media.ONIRO'), title: $r('app.string.app_intro'), info: $r('app.string.app_center'), showRightArrow: false, clickHandler: ()=> {}}) }
+
         ListItem() { SettingRow({icon: $r('app.media.author_avatar'), title: $r('app.string.app_author'), info: 'westinyang', clickHandler: ()=> {
           router.pushUrl({ url: 'pages/AboutAuthor', params: {} });
         }}) }

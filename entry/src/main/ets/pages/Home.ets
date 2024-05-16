@@ -134,7 +134,9 @@ export default struct Home {
             // 收录统计
             Column() {
               Text($r('app.string.inclusion_stats')).fontSize(20).width('100%').margin({bottom: 10})
+
                 .fontFamily(fonts.regular.familyName)
+
               Flex({
                 direction: FlexDirection.Row,
                 justifyContent: FlexAlign.SpaceBetween,
@@ -142,7 +144,9 @@ export default struct Home {
               }) {
                 Column() {
                   Column() {
+
                     Text($r('app.string.total')).height(30).fontSize(16).fontColor('#333').fontFamily(fonts.regular.familyName)
+
                   }.width('100%').border({width: {bottom: 1}, color: '#fff'})
                   Column() {
                     Text(this.totalCount.toString()).height(30).fontSize(16).fontColor('#555').fontFamily(fonts.regular.familyName)
@@ -155,7 +159,9 @@ export default struct Home {
 
                 Column() {
                   Column() {
+
                     Text($r('app.string.app')).height(30).fontSize(16).fontColor('#333').fontFamily(fonts.regular.familyName)
+
                   }.width('100%').border({width: {bottom: 1}, color: '#fff'})
                   Column() {
                     Text(this.appCount.toString()).height(30).fontSize(16).fontColor('#555').fontFamily(fonts.regular.familyName)
@@ -168,7 +174,9 @@ export default struct Home {
 
                 Column() {
                   Column() {
+
                     Text($r('app.string.game')).height(30).fontSize(16).fontColor('#333').fontFamily(fonts.regular.familyName)
+
                   }.width('100%').border({width: {bottom: 1}, color: '#fff'})
                   Column() {
                     Text(this.gameCount.toString()).height(30).fontSize(16).fontColor('#555').fontFamily(fonts.regular.familyName)
@@ -182,6 +190,7 @@ export default struct Home {
             }.margin({top: 15})
 
             // 最新公告
+
             // Column() {
             //   Text($r('app.string.latest_announcement')).fontSize(20).width('100%').margin({bottom: 10})
             //
