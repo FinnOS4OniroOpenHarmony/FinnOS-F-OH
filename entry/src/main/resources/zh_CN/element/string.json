@@ -215,6 +215,14 @@
     {
       "name": "metadata_management_pending",
       "value": "待实现，应用元数据源管理"
+    },
+    {
+      "name": "our_fav",
+      "value": "最受喜爱"
+    },
+    {
+      "name": "top_picks",
+      "value": "为您的设备精选"
     }
 
 
