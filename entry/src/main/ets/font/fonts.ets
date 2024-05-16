@@ -1,4 +1,4 @@
-//define fonts
+//define fonts as lists of objects
 const fonts = {
   semi_bold: {
     familyName: 'SemiBold',
